@@ -1,0 +1,158 @@
+*{
+    font-family: "Rimouski";
+    font-weight: bold;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #293251;
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#search-button{
+    color: none;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 1px solid;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+}
+
+#search-button:hover{
+    color: #293251;
+    background: #c26161;
+    border-color: #c26161;
+    transition: all 0.4 ease 0s;
+}
+
+#search-input{
+    width: 260px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid #c26161;
+    color: white;
+    outline: none;
+    background: none;
+}
+
+#search-input::placeholder {
+    color: rgba(255, 255, 255, 0.568);
+    opacity: 1;
+}
+
+input{
+    border: none;
+}
+
+.container{
+    width: 300px;    
+    background-color: rgba(255, 255,255, 0.3);
+    display: block;
+    margin: 0  auto;
+
+    border: 1px solid;
+    border-radius: 10px;
+    padding-bottom: 2px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 1.8em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 300px;
+    height: 260px;
+    background-color: transparent;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 300px;
+    height: 60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.6em;
+}
+
+.temperature-description p{
+    padding: 6px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.date{
+    margin: 0;
+    padding: 4px;
+    color: #293251;
+    text-align: center;
+    font-size: 1.em;
+}
