@@ -19,7 +19,7 @@ const Weather = async (city) => {
 	try {
 		// FETCH WEATHER DATA
 		const response = await fetch(
-			`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`
+			`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`
 		);
 
 		// CONVERT WEATHER DATA TO JSON
